@@ -1,0 +1,174 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+/*header start*/
+header{
+	background-color: #fff;
+	min-height: 50px;
+
+}
+.wrapper{
+	overflow: hidden;
+	width: 90%;
+	margin: 0 auto;
+}
+.logo{
+	width: 10%;
+	float: left;
+	margin-top: 6px;
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	width: 70%;
+	float: right;
+	margin-top: 16px;
+}
+.menu ul{
+	margin: 0;
+	padding: 0;
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	font-family: sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+	color: #283C68;
+	text-decoration: none;
+	margin: 20px;
+	transition: .3s;
+}
+.menu ul li a:hover{
+	color: #A0A0A0;
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+/*header end*/
+/*banner start*/
+.banner{}
+.b_content{
+	text-align: center;
+	margin: 0;
+	margin-top: 50px;
+}
+.b_content h1{
+	font-family: sans-serif;
+	font-weight: 700;
+	font-size: 40px;
+	color: #283C68;
+}
+.b_content h1 span{
+	color: #0088FF;
+}
+.b_content p{
+	font-family: sans-serif;
+	font-size: 16px;
+	color: #283C68;
+}
+.b_image{
+	text-align: center;
+	margin-top: 60px;
+}
+.b_image img{}
+/*banner end*/
+/*succes start*/
+.succes{
+	padding: 50px 0;
+	width: 72%;
+	margin: 0 auto;
+}
+.left{
+	width: 60%;
+	float: left;
+	text-align: right;
+}
+.left h2{
+	font-family: sans-serif;
+	font-weight: 400;
+	font-size: 50px;
+	color: #F15162;
+	margin: 0 0 10px;
+}
+.left p{
+	font-family: sans-serif;
+	font-size: 16px;
+	color: #000000;
+	line-height: 26px;
+	margin: 0;
+}
+.right{
+	width: 36%;
+	float: right;
+}
+.right h2{
+	font-family: sans-serif;
+	font-size: 30px;
+	color: #283C68;
+	margin: 12px 0 0;
+}
+/*succes end*/
+/*service start*/
+.service{
+	margin-bottom: 50px;
+}
+.single{
+	height: 340px;
+	width: 25%;
+	background-color: #FDEBED;
+	margin: 0;
+	padding:  60px 3% 25px;
+	border-radius: 10px;
+	float: left;
+	margin-left: 3.5%;
+}
+.single:nth-child(1){
+	margin-left: 0;
+}
+.single img{
+	width: 100%;
+	margin: 0;
+	
+}
+.single h1{
+	font-family: sans-serif;
+	font-size: 22px;
+	color: #283C68;
+	margin: 30px 0 15px;
+}
+.single p{
+	font-family: sans-serif;
+	font-size: 13px;
+	color: #000000;
+	line-height: 26px;
+	margin: 0;
+}
+.single2{
+	background-color: #EBF9F4;
+}
+.single3{
+	background-color: #FFF7E8;
+}
+/*service end*/
+/*footer start*/
+footer{
+	background-color: #CFD1D5;
+	text-align: center;
+	padding: 30px 0;
+}
+footer p{
+	font-family: sans-serif;
+	font-size: 13px;
+	color: #000000;
+	margin: 0;
+}
+footer p span{
+	color: #F15162;
+}
+/*footer end*/
